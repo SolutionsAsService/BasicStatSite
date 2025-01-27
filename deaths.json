@@ -1,0 +1,20 @@
+{
+    "wars": [
+        {
+            "name": "World War I",
+            "deaths": 15000000
+        },
+        {
+            "name": "World War II",
+            "deaths": 70000000
+        },
+        {
+            "name": "Vietnam War",
+            "deaths": 3000000
+        },
+        {
+            "name": "Korean War",
+            "deaths": 3600000
+        }
+    ]
+}
