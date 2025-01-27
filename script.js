@@ -24,33 +24,24 @@ function populateDropdown() {
     });
 }
 
-// Start counter when the user selects a war and presses the button
-function startCounter() {
-    const selectedWar = document.getElementById('war-select').value;
-    const war = warsData.find(w => w.name === selectedWar);
-    
-    if (war) {
-        let deathCount = 0;
-        let target = war.deaths;
-        let interval = setInterval(() => {
-            deathCount += 100000; // Add deaths in increments of 100,000
-            document.getElementById('counter').textContent = `Deaths: ${deathCount.toLocaleString()}`;
-            if (deathCount >= target) {
-                clearInterval(interval);
-                document.getElementById('counter').textContent = `Total Deaths: ${target.toLocaleString()}`;
-            }
-        }, 100); // Update every 100ms
-    }
-}
-
-// Update the death counter text when a new war is selected from the dropdown
+// Update the death counter text immediately when a war is selected
 function updateCounter() {
     const selectedWar = document.getElementById('war-select').value;
     const warNameElement = document.getElementById('war-name');
+    const counterElement = document.getElementById('counter');
+    
     if (selectedWar) {
+        // Find the selected war data
+        const war = warsData.find(w => w.name === selectedWar);
+        
+        // Display the war name
         warNameElement.textContent = `War: ${selectedWar}`;
+        
+        // Immediately show the total number of deaths
+        counterElement.textContent = `Deaths: ${war.deaths.toLocaleString()}`;
     } else {
         warNameElement.textContent = "War: Select a War";
+        counterElement.textContent = "Deaths: 0";
     }
 }
 
