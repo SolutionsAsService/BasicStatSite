@@ -1,60 +1,109 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background: #f0f4f8;
+/* General Reset and Body Styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 20px;
+    flex-direction: column;
     text-align: center;
 }
 
-h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+/* Container for the entire war data display */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
 }
 
-h2 {
-    font-size: 1.5rem;
-    color: #444;
-    margin-top: 0;
-}
-
-#counter {
-    font-size: 3rem;
-    color: #d9534f;
+/* War name header */
+h2#war-name {
+    font-size: 28px;
     font-weight: bold;
-    margin-top: 20px;
-    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    color: #333;
 }
 
+/* Death counter display */
+#counter {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #d9534f; /* Red color for death counter */
+    font-weight: bold;
+}
+
+/* Combatants display */
+#combatants {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #5bc0de; /* Light blue for combatants */
+}
+
+/* Dropdown menu styling */
+#war-select {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Button Styling */
 button {
     background-color: #28a745;
     color: white;
-    font-size: 1.2rem;
+    font-size: 18px;
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
+    border: none;
     cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
 }
 
+/* Button Hover Effect */
 button:hover {
     background-color: #218838;
 }
 
-button:active {
-    background-color: #1e7e34;
-}
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
 
-button {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    .container {
+        padding: 30px;
+    }
 
-button:focus {
-    outline: none;
+    h2#war-name {
+        font-size: 24px;
+    }
+
+    #counter, #combatants {
+        font-size: 18px;
+    }
+
+    #war-select {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    button {
+        font-size: 16px;
+    }
 }
