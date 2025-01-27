@@ -2,7 +2,7 @@
     "wars": [
         {
             "name": "World War I",
-            "deaths": 15000000
+            "deaths": 20000000
         },
         {
             "name": "World War II",
@@ -14,7 +14,67 @@
         },
         {
             "name": "Korean War",
-            "deaths": 3600000
+            "deaths": 3500000
+        },
+        {
+            "name": "American Civil War",
+            "deaths": 620000
+        },
+        {
+            "name": "Napoleonic Wars",
+            "deaths": 6000000
+        },
+        {
+            "name": "Chinese Civil War",
+            "deaths": 8000000
+        },
+        {
+            "name": "Iraq War",
+            "deaths": 2000000
+        },
+        {
+            "name": "Afghan Civil War",
+            "deaths": 1500000
+        },
+        {
+            "name": "Rwandan Civil War",
+            "deaths": 1000000
+        },
+        {
+            "name": "Bosnian War",
+            "deaths": 100000
+        },
+        {
+            "name": "Syrian Civil War",
+            "deaths": 500000
+        },
+        {
+            "name": "Chilean Civil War",
+            "deaths": 250000
+        },
+        {
+            "name": "Second Sudanese Civil War",
+            "deaths": 2000000
+        },
+        {
+            "name": "Yugoslav Wars",
+            "deaths": 1400000
+        },
+        {
+            "name": "Iran-Iraq War",
+            "deaths": 1000000
+        },
+        {
+            "name": "Gulf War",
+            "deaths": 250000
+        },
+        {
+            "name": "Spanish Civil War",
+            "deaths": 500000
+        },
+        {
+            "name": "War in Darfur",
+            "deaths": 300000
         }
     ]
 }
