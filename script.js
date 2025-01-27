@@ -38,11 +38,13 @@ function updateCounter() {
         // Display the war name
         warNameElement.textContent = `War: ${selectedWar}`;
         
-        // Immediately show the total number of deaths
+        // Immediately show the total number of deaths/combatants
         counterElement.textContent = `Deaths: ${war.deaths.toLocaleString()}`;
+    combatantsElement.textContent = `Combatants: ${war.combatants.join(', ')}`;
     } else {
         warNameElement.textContent = "War: Select a War";
         counterElement.textContent = "Deaths: 0";
+        combatantsElement.textContent = "Combatants: ";
     }
 }
 
