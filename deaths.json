@@ -2,79 +2,190 @@
     "wars": [
         {
             "name": "World War I",
-            "deaths": 20000000
+            "deaths": 20000000,
+            "combatants": [
+                "Allied Powers", 
+                "Central Powers"
+            ]
         },
         {
             "name": "World War II",
-            "deaths": 70000000
+            "deaths": 70000000,
+            "combatants": [
+                "Allied Powers", 
+                "Axis Powers"
+            ]
         },
         {
             "name": "Vietnam War",
-            "deaths": 3000000
+            "deaths": 3000000,
+            "combatants": [
+                "North Vietnam", 
+                "South Vietnam", 
+                "United States"
+            ]
         },
         {
             "name": "Korean War",
-            "deaths": 3500000
+            "deaths": 3500000,
+            "combatants": [
+                "North Korea", 
+                "South Korea", 
+                "United States", 
+                "China"
+            ]
         },
         {
             "name": "American Civil War",
-            "deaths": 620000
+            "deaths": 620000,
+            "combatants": [
+                "Union", 
+                "Confederacy"
+            ]
         },
         {
             "name": "Napoleonic Wars",
-            "deaths": 6000000
+            "deaths": 6000000,
+            "combatants": [
+                "France", 
+                "United Kingdom", 
+                "Prussia", 
+                "Russia", 
+                "Austria"
+            ]
         },
         {
             "name": "Chinese Civil War",
-            "deaths": 8000000
+            "deaths": 8000000,
+            "combatants": [
+                "Chinese Communist Party", 
+                "Nationalist Party (Kuomintang)"
+            ]
         },
         {
             "name": "Iraq War",
-            "deaths": 2000000
+            "deaths": 2000000,
+            "combatants": [
+                "Iraq", 
+                "United States", 
+                "Coalition Forces"
+            ]
         },
         {
             "name": "Afghan Civil War",
-            "deaths": 1500000
+            "deaths": 1500000,
+            "combatants": [
+                "Taliban", 
+                "Northern Alliance", 
+                "United States"
+            ]
         },
         {
             "name": "Rwandan Civil War",
-            "deaths": 1000000
+            "deaths": 1000000,
+            "combatants": [
+                "Rwandan Patriotic Front", 
+                "Rwandan Government Forces"
+            ]
         },
         {
             "name": "Bosnian War",
-            "deaths": 100000
+            "deaths": 100000,
+            "combatants": [
+                "Bosniaks", 
+                "Serbs", 
+                "Croats"
+            ]
         },
         {
             "name": "Syrian Civil War",
-            "deaths": 500000
+            "deaths": 500000,
+            "combatants": [
+                "Syrian Government", 
+                "Syrian Rebels", 
+                "ISIS", 
+                "Kurds", 
+                "Russia", 
+                "United States"
+            ]
         },
         {
             "name": "Chilean Civil War",
-            "deaths": 250000
+            "deaths": 250000,
+            "combatants": [
+                "Liberals", 
+                "Conservatives"
+            ]
         },
         {
             "name": "Second Sudanese Civil War",
-            "deaths": 2000000
+            "deaths": 2000000,
+            "combatants": [
+                "Sudanese Government", 
+                "Sudanese People's Liberation Army"
+            ]
         },
         {
             "name": "Yugoslav Wars",
-            "deaths": 1400000
+            "deaths": 1400000,
+            "combatants": [
+                "Bosnian Serbs", 
+                "Croats", 
+                "Bosniaks", 
+                "Serbs"
+            ]
         },
         {
             "name": "Iran-Iraq War",
-            "deaths": 1000000
+            "deaths": 1000000,
+            "combatants": [
+                "Iran", 
+                "Iraq"
+            ]
         },
         {
             "name": "Gulf War",
-            "deaths": 250000
+            "deaths": 250000,
+            "combatants": [
+                "Iraq", 
+                "United States", 
+                "Coalition Forces"
+            ]
         },
         {
             "name": "Spanish Civil War",
-            "deaths": 500000
+            "deaths": 500000,
+            "combatants": [
+                "Republicans", 
+                "Nationalists"
+            ]
         },
         {
             "name": "War in Darfur",
-            "deaths": 300000
+            "deaths": 300000,
+            "combatants": [
+                "Sudanese Government", 
+                "Rebel Groups"
+            ]
+        },
+        {
+            "name": "Russo-Turkish War",
+            "deaths": 500000,
+            "combatants": [
+                "Russian Empire", 
+                "Ottoman Empire"
+            ]
+        },
+        {
+            "name": "War of the Spanish Succession",
+            "deaths": 1000000,
+            "combatants": [
+                "Great Britain", 
+                "France", 
+                "Spain", 
+                "Austria", 
+                "Dutch Republic"
+            ]
         }
     ]
 }
