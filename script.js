@@ -24,11 +24,12 @@ function populateDropdown() {
     });
 }
 
-// Update the death counter text immediately when a war is selected
+// Update the different parameters text immediately when a war is selected
 function updateCounter() {
     const selectedWar = document.getElementById('war-select').value;
     const warNameElement = document.getElementById('war-name');
     const counterElement = document.getElementById('counter');
+    const combatantsElement = document.getElementById('combatants');
     
     if (selectedWar) {
         // Find the selected war data
