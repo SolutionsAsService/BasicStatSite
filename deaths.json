@@ -269,6 +269,99 @@
             "combatants": [
                 "People's Republic of China"
             ]
+        },
+        {
+            "name": "Thirty Years' War",
+            "deaths": 8000000,
+            "combatants": [
+                "Holy Roman Empire", 
+                "Sweden", 
+                "France", 
+                "Spain", 
+                "Various German States"
+            ]
+        },
+        {
+            "name": "World War I (Eastern Front)",
+            "deaths": 4000000,
+            "combatants": [
+                "Russia", 
+                "Germany", 
+                "Austria-Hungary", 
+                "Ottoman Empire"
+            ]
+        },
+        {
+            "name": "French Wars of Religion",
+            "deaths": 3000000,
+            "combatants": [
+                "Catholics", 
+                "Huguenots"
+            ]
+        },
+        {
+            "name": "Napoleonic Wars (Peninsular War)",
+            "deaths": 5000000,
+            "combatants": [
+                "France", 
+                "Spain", 
+                "Portugal", 
+                "United Kingdom"
+            ]
+        },
+        {
+            "name": "World War II (Eastern Front)",
+            "deaths": 20000000,
+            "combatants": [
+                "Soviet Union", 
+                "Nazi Germany", 
+                "Axis Powers"
+            ]
+        },
+        {
+            "name": "The Vietnam War (Indochina War)",
+            "deaths": 5000000,
+            "combatants": [
+                "North Vietnam", 
+                "South Vietnam", 
+                "United States", 
+                "Cambodia", 
+                "Laos"
+            ]
+        },
+        {
+            "name": "Genghis Khan's Conquests",
+            "deaths": 40000000,
+            "combatants": [
+                "Mongol Empire", 
+                "Various Kingdoms and States"
+            ]
+        },
+        {
+            "name": "American Revolutionary War",
+            "deaths": 250000,
+            "combatants": [
+                "Thirteen Colonies", 
+                "Great Britain", 
+                "French Forces"
+            ]
+        },
+        {
+            "name": "Second War of Italian Independence",
+            "deaths": 1000000,
+            "combatants": [
+                "Kingdom of Sardinia", 
+                "Austrian Empire", 
+                "Kingdom of Naples"
+            ]
+        },
+        {
+            "name": "Mughal-Maratha Wars",
+            "deaths": 5000000,
+            "combatants": [
+                "Mughal Empire", 
+                "Maratha Confederacy"
+            ]
         }
     ]
 }
