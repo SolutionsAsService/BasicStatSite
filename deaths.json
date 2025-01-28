@@ -186,6 +186,89 @@
                 "Austria", 
                 "Dutch Republic"
             ]
+        },
+        {
+            "name": "Second Sino-Japanese War",
+            "deaths": 25000000,
+            "combatants": [
+                "China", 
+                "Japan"
+            ]
+        },
+        {
+            "name": "Taiping Rebellion",
+            "deaths": 20000000,
+            "combatants": [
+                "Taiping Heavenly Kingdom", 
+                "Qing Dynasty"
+            ]
+        },
+        {
+            "name": "World War II (China theater)",
+            "deaths": 20000000,
+            "combatants": [
+                "China", 
+                "Japan"
+            ]
+        },
+        {
+            "name": "Holocaust",
+            "deaths": 6000000,
+            "combatants": [
+                "Nazi Germany", 
+                "Jewish People", 
+                "Other Victimized Groups"
+            ]
+        },
+        {
+            "name": "Congo Civil War",
+            "deaths": 5000000,
+            "combatants": [
+                "Congolese Government", 
+                "Rebel Groups", 
+                "Foreign Military Intervention"
+            ]
+        },
+        {
+            "name": "An Lushan Rebellion",
+            "deaths": 13000000,
+            "combatants": [
+                "Tang Dynasty", 
+                "An Lushan's Rebellion Forces"
+            ]
+        },
+        {
+            "name": "Russian Civil War",
+            "deaths": 7000000,
+            "combatants": [
+                "Bolsheviks", 
+                "White Army", 
+                "Various Factions"
+            ]
+        },
+        {
+            "name": "Bengal Famine of 1943",
+            "deaths": 3000000,
+            "combatants": [
+                "British Empire", 
+                "Bengali Population"
+            ]
+        },
+        {
+            "name": "Indo-Pakistani War of 1971",
+            "deaths": 3000000,
+            "combatants": [
+                "India", 
+                "Pakistan", 
+                "Bangladesh"
+            ]
+        },
+        {
+            "name": "The Great Chinese Famine",
+            "deaths": 15000000,
+            "combatants": [
+                "People's Republic of China"
+            ]
         }
     ]
 }
