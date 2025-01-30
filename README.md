@@ -1,4 +1,4 @@
-# Basic Statistics Site
+# Most Basic Statistics Site
 
 This web application displays statistics, currently configued to display major wars and their associated death tolls. Users can select a war from a dropdown menu to view its details, including the number of deaths and the involved combatants.
 
