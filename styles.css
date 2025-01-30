@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #2c2f33; /* Dark background for serious tone */
+    color: #e0e0e0; /* Light text color for contrast */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,10 +20,10 @@ body {
 
 /* Container for the entire war data display */
 .container {
-    background-color: #fff;
+    background-color: #3c4248; /* Darker container background */
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
     width: 100%;
     max-width: 600px;
 }
@@ -33,14 +33,14 @@ h2#war-name {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #333;
+    color: #e0e0e0;
 }
 
 /* Death counter display */
 #counter {
     font-size: 22px;
     margin: 15px 0;
-    color: #d9534f; /* Red color for death counter */
+    color: #ff5555; /* Bright red for emphasis on death counter */
     font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ h2#war-name {
 #combatants {
     font-size: 20px;
     margin: 15px 0;
-    color: #5bc0de; /* Light blue for combatants */
+    color: #6fb1ff; /* Muted blue for combatants */
 }
 
 /* Dropdown menu styling */
@@ -56,8 +56,9 @@ h2#war-name {
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    border: 1px solid #555; /* Darker border */
+    background-color: #444; /* Darker background */
+    color: #e0e0e0; /* Light text color */
     margin-bottom: 20px;
     width: 100%;
     max-width: 300px;
@@ -65,7 +66,7 @@ h2#war-name {
 
 /* Button Styling */
 button {
-    background-color: #28a745;
+    background-color: #4caf50; /* Muted green */
     color: white;
     font-size: 18px;
     padding: 10px 20px;
@@ -77,7 +78,7 @@ button {
 
 /* Button Hover Effect */
 button:hover {
-    background-color: #218838;
+    background-color: #45a049;
 }
 
 /* Responsive design for smaller screens */
