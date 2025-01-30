@@ -16,6 +16,7 @@ body {
     padding: 20px;
     flex-direction: column;
     text-align: center;
+    line-height: 1.6; /* Add line height for spacing */
 }
 
 /* Container for the entire war data display */
@@ -34,6 +35,7 @@ h2#war-name {
     font-weight: bold;
     margin-bottom: 20px;
     color: #e0e0e0;
+    line-height: 1.4; /* Add line height for spacing */
 }
 
 /* Death counter display */
@@ -42,6 +44,7 @@ h2#war-name {
     margin: 15px 0;
     color: #ff5555; /* Bright red for emphasis on death counter */
     font-weight: bold;
+    line-height: 1.4; /* Add line height for spacing */
 }
 
 /* Combatants display */
@@ -49,6 +52,7 @@ h2#war-name {
     font-size: 20px;
     margin: 15px 0;
     color: #6fb1ff; /* Muted blue for combatants */
+    line-height: 1.4; /* Add line height for spacing */
 }
 
 /* Dropdown menu styling */
