@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>War Death Counter</title>
+    <title>War Statistics Display</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <h1>War Death Counter</h1>
+    <div class="container">
+        <h1>War Statistics Display</h1>
+        
+        <!-- Instructions for selecting a war -->
+        <p>Please select a war from the dropdown menu to view the statistics.</p>
         
         <!-- Dropdown for selecting war -->
         <select id="war-select" onchange="updateCounter()">
             <option value="">Select a War</option>
+            <!-- Add options dynamically using JavaScript -->
         </select>
         
-        <!-- Display the selected war name and deaths -->
+        <!-- Display the selected war name, deaths, and combatants -->
         <h2 id="war-name">War: Select a War</h2>
         <div id="counter">Deaths: 0</div>
         <h3 id="combatants">Combatants: </h3>
