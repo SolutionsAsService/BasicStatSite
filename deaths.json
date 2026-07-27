@@ -1,41 +1,116 @@
 {
     "wars": [
         
-        {
-            "name": "World War I",
-            "deaths": 20000000,
-            "combatants": [
-                "Allied Powers", 
-                "Central Powers"
-            ]
-        },
-        {
-            "name": "World War II",
-            "deaths": 70000000,
-            "combatants": [
-                "Allied Powers", 
-                "Axis Powers"
-            ]
-        },
-        {
-            "name": "Vietnam War",
-            "deaths": 3000000,
-            "combatants": [
-                "North Vietnam", 
-                "South Vietnam", 
-                "United States"
-            ]
-        },
-        {
-            "name": "Korean War",
-            "deaths": 3500000,
-            "combatants": [
-                "North Korea", 
-                "South Korea", 
-                "United States", 
-                "China"
-            ]
-        },
+    {
+        "name": "World War I",
+        "deaths": 20000000,
+        "combatants": [
+            "Allied Powers",
+            "France",
+            "British Empire",
+            "United Kingdom",
+            "Russia",
+            "Italy",
+            "United States",
+            "Japan",
+            "Serbia",
+            "Belgium",
+            "Romania",
+            "Greece",
+            "Portugal",
+            "Montenegro",
+            "Central Powers",
+            "Germany",
+            "Austria-Hungary",
+            "Ottoman Empire",
+            "Bulgaria"
+        ]
+    },
+    {
+        "name": "World War II",
+        "deaths": 70000000,
+        "combatants": [
+            "Allied Powers",
+            "United States",
+            "Soviet Union",
+            "United Kingdom",
+            "British Empire",
+            "China",
+            "France",
+            "Free France",
+            "Poland",
+            "Canada",
+            "Australia",
+            "New Zealand",
+            "India",
+            "South Africa",
+            "Yugoslavia",
+            "Greece",
+            "Norway",
+            "Netherlands",
+            "Belgium",
+            "Czechoslovakia",
+            "Brazil",
+            "Mexico",
+            "Philippines",
+            "Ethiopia",
+            "Axis Powers",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Hungary",
+            "Romania",
+            "Bulgaria",
+            "Slovakia",
+            "Croatia",
+            "Finland"
+        ]
+    },
+    {
+        "name": "Vietnam War",
+        "deaths": 3000000,
+        "combatants": [
+            "North Vietnam",
+            "Viet Cong",
+            "South Vietnam",
+            "United States",
+            "South Korea",
+            "Australia",
+            "New Zealand",
+            "Thailand",
+            "Philippines",
+            "China",
+            "Soviet Union",
+            "North Korea"
+        ]
+    },
+    {
+        "name": "Korean War",
+        "deaths": 3500000,
+        "combatants": [
+            "North Korea",
+            "South Korea",
+            "United States",
+            "China",
+            "Soviet Union",
+            "United Kingdom",
+            "Canada",
+            "Australia",
+            "Turkey",
+            "France",
+            "Philippines",
+            "Thailand",
+            "Netherlands",
+            "Greece",
+            "New Zealand",
+            "South Africa",
+            "Belgium",
+            "Luxembourg",
+            "Colombia",
+            "Ethiopia"
+        ]
+    }
+        
         {
             "name": "American Civil War",
             "deaths": 620000,
